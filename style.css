@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Great Vibes', cursive;    
+}
+body{
+    background-image: url("img/ivana-cajina-asuyh-_ZX54-unsplash.jpg");
+    background-size: cover;
+    color: white;
+    
+}
+
+/* HEADING*/
+ 
+#head{
+    font-size: 2.5em;
+    text-align: center;
+    display: block;
+    margin: 30px auto 0px auto;
+    width: 70%;
+}
+
+/* HEADING*/
+
+/* SIGNS */
+
+
+#signs{
+    opacity: 0.1;
+    transition: 4s opacity;
+}
+
+#signstop{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%; 
+}
+
+#signstop img:hover{
+    filter: invert(60%);
+    cursor: pointer;
+}
+#signsbot img:hover{
+    filter: invert(60%);
+    cursor: pointer;
+}
+
+#signsbot{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%; 
+}
+
+/* SIGNS */
+
+h2{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 300;
+    font-family: 'Courgette', cursive;
+}
+#righth2{
+    position: absolute;
+    right: 30px;
+    top: 380px;
+}
+#lefth2{
+    position: absolute;
+    left: 30px;
+    top: 380px;
+}
+
+/* MAIN */
+
+#main{
+    color: black;
+    background-color: white;
+    width: 75%;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+#main img{
+    filter: invert(100%);
+}
+#main h3{
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+}
+#leftmatch{
+    width: 500px;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+#rightmatch{
+    font-family: 'Courgette', cursive;
+    font-size: 40px;
+    width: 500px;
+}
+#rightmatch h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#rightmatch li{
+    font-family: 'Courgette', cursive;
+    margin-left: 100px;
+}
+.inline{
+    display: inline-block;
+}
